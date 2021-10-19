@@ -1,0 +1,88 @@
+
+/* Topnav CSS */
+.topnav {
+  display: flex;
+  /* position: fixed; */
+  width: inherit;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #36B37E;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #36B37E;
+  text-decoration: underline;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Inter", sans-serif;
+  float: left;
+  color: #172B4D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* FLexbox for the header */
+.right {
+  flex-grow: 1;
+}
+.left {
+  flex-grow: 3;
+}
+.nav-menu {
+  flex-grow: 2;
+}
+
+/* Headline CSS */
+.headline {
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+
+  border-radius: 0px;
+  padding: 160px, 0px, 160px, 0px;
+
+}
+
+.headline-text1 {
+  color: #172B4D;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+
+}
+
+.headline-text2 {
+  color: #36B37E;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+
+}
+.headline-details {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
