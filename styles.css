@@ -31,9 +31,11 @@
 .right {
   flex-grow: 1;
 }
+
 .left {
   flex-grow: 3;
 }
+
 .nav-menu {
   flex-grow: 2;
 }
@@ -47,8 +49,9 @@
   line-height: 60px;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
-  padding: 160px 0px 160px 0px;
+  padding: 160px 10px 160px 10px;
 }
+
 .headline-text1 {
   color: #172b4d;
   font-size: 48px;
@@ -58,6 +61,7 @@
   letter-spacing: 0.3700000047683716px;
   text-align: center;
 }
+
 .headline-text2 {
   color: #36b37e;
   font-size: 48px;
@@ -67,13 +71,14 @@
   letter-spacing: 0.3700000047683716px;
   text-align: center;
 }
+
 .headline-details {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 3em;
   text-align: center;
   flex: none;
-  margin: 24px 0px;
+  margin: 24px 10px;
 }
