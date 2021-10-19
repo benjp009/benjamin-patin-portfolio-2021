@@ -8,9 +8,9 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   font-family: "Inter", sans-serif;
-  float: left;
+  display: flex;
+  justify-content: center;
   color: #172b4d;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -33,7 +33,7 @@
 }
 
 .left {
-  flex-grow: 3;
+  flex-grow: 1;
 }
 
 .nav-menu {
@@ -83,13 +83,19 @@
   margin: 24px 10px;
 }
 
+/* Wrap list in a FLexbox */
+
+.icon-list {
+  flex: auto;
+}
+
 /* Style all font awesome icons */
 .fa {
-  flex: auto;
   color: #172b4d;
   font-size: 18px;
   padding: 10px;
   width: 30px;
+  text-decoration: none;
 }
 
 /* Add a hover effect if you want */
