@@ -54,7 +54,6 @@
 
   border-radius: 0px;
   padding: 160px, 0px, 160px, 0px;
-
 }
 
 .headline-text1 {
@@ -85,4 +84,10 @@
   line-height: 32px;
   letter-spacing: 0em;
   text-align: center;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
 }
