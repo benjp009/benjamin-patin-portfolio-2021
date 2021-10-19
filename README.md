@@ -16,6 +16,12 @@ That repository is to display my portfolio as a new developer
 
 Day 3 - Portfolio: setup and mobile version skeleton
 
+### Project requirements
+* For this project, you should use the HTML&CSS linter
+* The 2 sections you need to build for this project are:
+  * the toolbar (or header):
+  * the headline section (right after the header):
+
 
 ## Authors
 
