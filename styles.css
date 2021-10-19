@@ -3,13 +3,13 @@
   display: flex;
   width: inherit;
   height: 72px;
-  left: 0px;
-  top: 0px;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
   color: #36b37e;
 }
+
 /* Add a color to the active/current link */
 .topnav a.active {
   color: #36b37e;
