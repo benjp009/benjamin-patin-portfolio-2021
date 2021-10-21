@@ -28,21 +28,14 @@
 }
 
 .logo {
-  /* My Logo */
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-
-  /* identical to box height, or 111% */
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Primary/B400 */
   color: #6070ff;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -92,7 +85,7 @@
   margin-top: 40px;
   font-family: Inter, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
-  text-align: center;
+  text-align: left;
   padding: 114px 24px 114px 24px;
 }
 
@@ -103,7 +96,7 @@
   font-weight: 800;
   line-height: 60px;
   letter-spacing: 0.3700000047683716px;
-  text-align: center;
+  text-align: inherit;
 }
 
 .headline-text2 {
@@ -113,7 +106,7 @@
   font-weight: 800;
   line-height: 40px;
   letter-spacing: 0.5px;
-  text-align: center;
+  text-align: inherit;
 }
 
 .headline-details {
@@ -121,9 +114,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-align: center;
+  text-align: left;
   flex: none;
-  margin: 24px 10px;
+  margin-top: 24px;
+}
+
+.let-connect {
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-align: left;
 }
 
 /* Wrap list in a FLexbox */
@@ -135,7 +138,7 @@
 .fa {
   color: #172b4d;
   font-size: 18px;
-  padding: 10px;
+  padding: 0px;
   width: 30px;
   text-decoration: none;
 }
@@ -228,7 +231,8 @@
   padding: 5px 15px 5px 15px;
 }
 
-.project-button {
+.button {
+  background: #fff;
   flex: none;
   position: static;
   width: 124px;
@@ -244,6 +248,26 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 10px 10px 10px;
+}
+
+.button:hover {
+  color: white;
+  background: #6070ff;
+}
+
+.button:after {
+}
+
+.button:active:after {
+}
+
+.about-me {
+  padding: 100px 20px 100px 20px;
+  background: #fff;
+  border-radius: 0px 100px 0px 0px;
+}
+.self-category {
+  padding-top: 40px;
 }
 
 ul {
