@@ -54,6 +54,7 @@
 
 /* Style navigation menu links */
 .topnav a {
+  font-family: "Inter", sans-serif;
   color: #6070ff;
   padding: 14px 16px;
   text-decoration: none;
