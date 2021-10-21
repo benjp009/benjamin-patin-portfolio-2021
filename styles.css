@@ -1,14 +1,33 @@
-height: 5410px;
-width: 375px;
-left: 11282px;
-top: -1883px;
-border-radius: 0px;
+.body {
+  /* Template 2-Mobile-Main */
+  position: relative;
+  width: 375px;
+  height: 5410px;
 
+  /* Neutrals/N10 */
+
+  background: #F7F7F9;
+}
+
+.header {
+  /* header-background-mobile */
+  position: absolute;
+  width: 375px;
+  left: 0px;
+  top: 0px;
+
+  /* Neutrals/N0 */
+  background: #FFFFFF;
+
+  /* header-background-image */
+  background-image: url('ressources/header-shapes mobile.png');
+  position: absolute;
+}
 
 /* Topnav CSS */
 .topnav {
   display: flex;
-  width: inherit;
+  width: 462px;
   height: 72px;
 }
 
@@ -21,6 +40,13 @@ border-radius: 0px;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 /* Change the color of links on hover */
@@ -53,8 +79,11 @@ border-radius: 0px;
 }
 
 .headline {
-  /* background-image: url('ressources/5243835.jpg'); */
-  background-color: blue;
+
+  /* width: 462px;
+  height: 587.15px;
+  left: -34px;
+  top: 104px; */
 
   font-family: Inter, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
@@ -64,7 +93,7 @@ border-radius: 0px;
 
 .headline-text1 {
   color: #172b4d;
-  font-size: 48px;
+  font-size: 46px;
   font-style: normal;
   font-weight: 800;
   line-height: 60px;
@@ -74,11 +103,11 @@ border-radius: 0px;
 
 .headline-text2 {
   color: #36b37e;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 800;
-  line-height: 60px;
-  letter-spacing: 0.3700000047683716px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
