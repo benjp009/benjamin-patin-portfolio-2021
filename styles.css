@@ -10,7 +10,7 @@
 
 .header {
   /* Neutrals/N0 */
-  background: #ffffff;
+  background: #fff;
 
   /* header-background-image */
   background-image: url('ressources/header-shapes mobile.png');
@@ -46,7 +46,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
 }
 
 .navmenu {
@@ -79,7 +78,7 @@
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
