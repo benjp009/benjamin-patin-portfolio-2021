@@ -245,7 +245,7 @@
   height: 48px;
   left: 1px;
   top: calc(50% - 48px / 2);
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
@@ -266,6 +266,7 @@
   background: #fff;
   border-radius: 1px 100px 1px 1px;
 }
+
 .self-category {
   padding-top: 40px;
 }
