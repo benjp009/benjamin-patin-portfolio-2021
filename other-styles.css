@@ -1,0 +1,36 @@
+
+/* Topnav CSS */
+.topnav {
+  display: flex;
+  width: 462px;
+  height: 72px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #172b4d;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #36b37e;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #36b37e;
+  text-decoration: underline;
+} */
