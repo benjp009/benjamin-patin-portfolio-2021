@@ -5,16 +5,12 @@
   height: 5410px;
 
   /* Neutrals/N10 */
-
   background: #F7F7F9;
 }
 
 .header {
   /* header-background-mobile */
-  position: absolute;
-  width: 375px;
-  left: 0px;
-  top: 0px;
+  position: flex;
 
   /* Neutrals/N0 */
   background: #FFFFFF;
@@ -24,53 +20,12 @@
   position: absolute;
 }
 
-/* Topnav CSS */
 .topnav {
-  display: flex;
-  width: 462px;
-  height: 72px;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: center;
-  color: #172b4d;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: #36b37e;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: #36b37e;
-  text-decoration: underline;
-}
-
-/* FLexbox for the header */
-.right {
-  flex-grow: 1;
-}
-
-.left {
-  flex-grow: 1;
 }
 
 .nav-menu {
-  flex-grow: 2;
+
 }
 
 /* Headline CSS */
@@ -79,16 +34,10 @@
 }
 
 .headline {
-
-  /* width: 462px;
-  height: 587.15px;
-  left: -34px;
-  top: 104px; */
-
   font-family: Inter, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
-  padding: 160px 10px 160px 10px;
+  padding: 114px 24px 114px 24px;
 }
 
 .headline-text1 {
@@ -122,7 +71,6 @@
 }
 
 /* Wrap list in a FLexbox */
-
 .icon-list {
   flex: auto;
 }
