@@ -17,12 +17,9 @@
   font-size: 17px;
 
   /* Inside Auto Layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
-}
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -33,4 +30,4 @@
 .topnav a.active {
   color: #36b37e;
   text-decoration: underline;
-} 
+}
