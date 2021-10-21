@@ -9,9 +9,6 @@
 }
 
 .header {
-  /* header-background-mobile */
-  position: flex;
-
   /* Neutrals/N0 */
   background: #FFFFFF;
 
@@ -21,11 +18,71 @@
 }
 
 .topnav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
 
+.topnav #myLinks {
+  display: none;
+}
+
+
+.logo {
+  /* My Logo */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+  color: #6070FF;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
 .nav-menu {
+  align-content: center;
+}
 
+/* Style navigation menu links */
+.topnav a {
+  color: #6070FF;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  color: #6070FF;
+  content: inherit;
+  display: block;
+  position: absolute;
+  right: 0;
+  align-self: center;
+}
+
+/* Add the background color on mouse-over */
+.topnav a:hover {
+  color: #36b37e;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /* Headline CSS */
@@ -34,6 +91,7 @@
 }
 
 .headline {
+  margin-top: 40px;
   font-family: Inter, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
