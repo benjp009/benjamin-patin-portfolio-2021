@@ -10,7 +10,8 @@
 .header {
   /* Neutrals/N0 */
   background: #fff;
-  border-radius: 0px 0px 0px 100px;
+  border-radius: 1px 1px 1px 100px;
+
   /* header-background-image */
   background-image: url('ressources/header-shapes mobile.png');
 }
@@ -143,7 +144,7 @@
 .fa {
   color: #172b4d;
   font-size: 18px;
-  padding: 0px;
+  padding: 1px;
   width: 30px;
   text-decoration: none;
 }
@@ -173,7 +174,7 @@
 }
 
 .work-section-image {
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 1px;
 }
 
 .client-info {
@@ -223,7 +224,7 @@
 .tags {
   background: #ebebff;
   color: #6070ff;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -232,7 +233,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0px 10px;
+  margin: 1px 10px;
   padding: 5px 15px 5px 15px;
 }
 
@@ -242,17 +243,17 @@
   position: static;
   width: 124px;
   height: 48px;
-  left: 0px;
+  left: 1px;
   top: calc(50% - 48px / 2);
   border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px 10px 10px;
+  margin: 1px 10px 10px 10px;
 }
 
 .button:hover {
@@ -260,16 +261,10 @@
   background: #6070ff;
 }
 
-.button:after {
-}
-
-.button:active:after {
-}
-
 .about-me {
   padding: 100px 20px 100px 20px;
   background: #fff;
-  border-radius: 0px 100px 0px 0px;
+  border-radius: 1px 100px 1px 1px;
 }
 .self-category {
   padding-top: 40px;
@@ -290,5 +285,5 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
