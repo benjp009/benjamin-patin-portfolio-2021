@@ -2,11 +2,13 @@
   /* Template 2-Mobile-Main */
   position: relative;
   width: 375px;
+
   /* Neutrals/N10 */
   background: #f7f7f9;
 }
 
 .header {
+
   /* Neutrals/N0 */
   background: #fff;
   border-radius: 0px 0px 0px 100px;
@@ -183,7 +185,7 @@
 }
 
 .client-name {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -192,12 +194,12 @@
 }
 
 .project-style .project-year {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .client-section-counter {
@@ -206,18 +208,18 @@
 }
 
 .project-info {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: 12px 0px;
+  margin: 12px 5px;
 }
 
 .language-used {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 12px 0px;
+  margin: 12px 5px;
 }
 
 .tags {
@@ -243,7 +245,7 @@
   width: 124px;
   height: 48px;
   left: 0px;
-  top: calc(50% - 48px/2);
+  top: calc(50% - 48px / 2);
   border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
@@ -281,7 +283,7 @@ ul {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
