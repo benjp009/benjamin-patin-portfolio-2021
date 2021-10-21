@@ -1,3 +1,10 @@
+height: 5410px;
+width: 375px;
+left: 11282px;
+top: -1883px;
+border-radius: 0px;
+
+
 /* Topnav CSS */
 .topnav {
   display: flex;
@@ -46,7 +53,9 @@
 }
 
 .headline {
-  background-image: url('ressources/5243835.jpg');
+  /* background-image: url('ressources/5243835.jpg'); */
+  background-color: blue;
+
   font-family: Inter, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
   text-align: center;
