@@ -8,11 +8,9 @@
 }
 
 .header {
-
   /* Neutrals/N0 */
   background: #fff;
   border-radius: 0px 0px 0px 100px;
-
   /* header-background-image */
   background-image: url('ressources/header-shapes mobile.png');
 }
