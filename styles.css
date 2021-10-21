@@ -11,10 +11,10 @@
 .header {
   /* Neutrals/N0 */
   background: #fff;
+  border-radius: 0px 0px 0px 100px;
 
   /* header-background-image */
   background-image: url('ressources/header-shapes mobile.png');
-  position: absolute;
 }
 
 .topnav {
@@ -143,4 +143,123 @@
 /* Add a hover effect if you want */
 .fa:hover {
   color: #36b37e;
+}
+
+.grid-container {
+  padding-top: 50px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 50px 30px 50px 30px;
+  padding-left: 10px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.work-section-image {
+  margin: 10px 10px 10px 0px;
+}
+
+.client-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.client-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.project-style .project-year {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+}
+
+.client-section-counter {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-info {
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0px;
+}
+
+.language-used {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 12px 0px;
+}
+
+.tags {
+  background: #ebebff;
+  color: #6070ff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+  padding: 5px 15px 5px 15px;
+}
+
+.project-button {
+  flex: none;
+  position: static;
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px/2);
+  border: 1px solid #6070FF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px 10px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
