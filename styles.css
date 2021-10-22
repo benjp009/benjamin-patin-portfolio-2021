@@ -1,43 +1,85 @@
-/* Topnav CSS */
-.topnav {
-  display: flex;
-  width: inherit;
-  height: 72px;
+.body {
+  /* Template 2-Mobile-Main */
+  position: relative;
+  width: 375px;
+
+  /* Neutrals/N10 */
+  background: #f7f7f9;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  font-family: "Inter", sans-serif;
+.header {
+  /* Neutrals/N0 */
+  background: #fff;
+  border-radius: 1px 1px 1px 100px;
+
+  /* header-background-image */
+  background-image: url('ressources/header-shapes mobile.png');
+}
+
+.topnav {
   display: flex;
-  justify-content: center;
-  color: #172b4d;
+  flex-direction: row;
+  align-content: center;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.logo {
+  /* My Logo */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+  color: #6070ff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navmenu {
+  align-content: center;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  font-family: Poppins, sans-serif;
+  color: #6070ff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
 }
 
-/* Change the color of links on hover */
+/* Style the hamburger menu */
+.topnav a.icon {
+  color: #6070ff;
+  content: inherit;
+  display: block;
+  position: absolute;
+  right: 0;
+  align-self: center;
+}
+
+/* Add the background color on mouse-over */
 .topnav a:hover {
   color: #36b37e;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: #36b37e;
-  text-decoration: underline;
-}
-
-/* FLexbox for the header */
-.right {
-  flex-grow: 1;
-}
-
-.left {
-  flex-grow: 1;
-}
-
-.nav-menu {
-  flex-grow: 2;
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04aa6d;
+  color: white;
 }
 
 /* Headline CSS */
@@ -46,31 +88,31 @@
 }
 
 .headline {
-  background-image: url('ressources/5243835.jpg');
-  font-family: Inter, Roboto, sans-serif;
+  margin-top: 40px;
+  font-family: Poppins, Roboto, sans-serif;
   letter-spacing: 0.3700000047683716px;
-  text-align: center;
-  padding: 160px 10px 160px 10px;
+  text-align: left;
+  padding: 114px 24px 114px 24px;
 }
 
 .headline-text1 {
   color: #172b4d;
-  font-size: 48px;
+  font-size: 46px;
   font-style: normal;
   font-weight: 800;
   line-height: 60px;
   letter-spacing: 0.3700000047683716px;
-  text-align: center;
+  text-align: inherit;
 }
 
 .headline-text2 {
   color: #36b37e;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 800;
-  line-height: 60px;
-  letter-spacing: 0.3700000047683716px;
-  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  text-align: inherit;
 }
 
 .headline-details {
@@ -78,22 +120,32 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-align: center;
+  text-align: left;
   flex: none;
-  margin: 24px 10px;
+  margin-top: 24px;
+}
+
+.let-connect {
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-align: left;
 }
 
 /* Wrap list in a FLexbox */
-
 .icon-list {
-  flex: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Style all font awesome icons */
 .fa {
   color: #172b4d;
   font-size: 18px;
-  padding: 10px;
+  padding: 1px;
   width: 30px;
   text-decoration: none;
 }
@@ -101,4 +153,211 @@
 /* Add a hover effect if you want */
 .fa:hover {
   color: #36b37e;
+}
+
+.grid-container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 50px 30px 50px 30px;
+  padding-left: 10px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.work-section-image {
+  margin: 10px 10px 10px 1px;
+}
+
+.client-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.client-name {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.project-style .project-year {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.client-section-counter {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-info {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 5px;
+}
+
+.language-used {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 12px;
+}
+
+.tags {
+  background: #ebebff;
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 1px 10px;
+  padding: 5px 15px 5px 15px;
+}
+
+.button {
+  background: #fff;
+  flex: none;
+  position: static;
+  width: 124px;
+  height: 48px;
+  left: 1px;
+  top: calc(50% - 48px / 2);
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  order: 0;
+  flex-grow: 0;
+  margin: 1px 10px 10px 1px;
+}
+
+.button:hover {
+  color: white;
+  background: #6070ff;
+}
+
+.button:active {
+  color: white;
+  background: #2230d2;
+}
+
+.about-me {
+  padding: 100px 20px 100px 20px;
+  background: #fff;
+  border-radius: 1px 100px 1px 1px;
+}
+
+.about-me-h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.about-me-p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.self-category {
+  padding-top: 40px;
+  height: 248.14678955078125px;
+  width: 327px;
+  top: 72px;
+}
+
+.knowledges {
+  display: block;
+  width: 327px;
+  top: 392.146728515625px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  align-items: center;
+}
+
+.knowledges-details {
+  display: grid;
+  grid-template-columns: 20% 10% 70%;
+  background: #f7f7f9;
+  height: 66.7155990600586px;
+  width: 303px;
+  left: 12px;
+  top: 12px;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.knowledge-img {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.knowledge-p {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 1px;
 }
