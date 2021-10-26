@@ -268,7 +268,7 @@
 }
 
 .about-me {
-  padding: 100px 20px 100px 20px;
+  padding: 100px 20px 100px 10px;
   background: #fff;
   border-radius: 1px 100px 1px 1px;
 }
@@ -291,17 +291,17 @@
   text-align: left;
 }
 
-.self-category {
+/* .self-category {
   padding-top: 40px;
-  height: 248.14678955078125px;
+  height: 248px;
   width: 327px;
   top: 72px;
-}
+} */
 
 .knowledges {
   display: block;
   width: 327px;
-  top: 392.146728515625px;
+  top: 392px;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -315,7 +315,7 @@
   display: grid;
   grid-template-columns: 20% 10% 70%;
   background: #f7f7f9;
-  height: 66.7155990600586px;
+  height: 66px;
   width: 303px;
   left: 12px;
   top: 12px;
@@ -362,8 +362,12 @@ h2 {
   margin: 12px 1px;
 }
 
+.contact-me-white {
+  background: white;
+  margin-top: -12px;
+}
+
 .contact-me {
-  /* Neutrals/N0 */
   background: #6070FF;
   border-radius: 100px 1px 1px 1px;
 
@@ -372,5 +376,6 @@ h2 {
 }
 
 .contact-me-title {
-  color: inherit;
+  padding-top: 80px;
+  color: white;
 }
