@@ -368,6 +368,9 @@ h2 {
 }
 
 .contact-me {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
   background: #6070FF;
   border-radius: 100px 1px 1px 1px;
 
@@ -397,4 +400,23 @@ h2 {
   width: 327px;
   height: 48px;
   border: 1px solid #cfd8dc;
+}
+
+textarea {
+resize: vertical;
+font-family: 'Poppins', sans-serif;
+min-height: 170px;
+text-indent: 15px;
+padding-top: 15px;
+}
+
+input {
+  text-indent: 15px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.form-button {
+  margin-left: 24px;
+  margin-right: 24px;
 }
