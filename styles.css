@@ -389,8 +389,7 @@ h2 {
   margin: 1px 24px;
 }
 
-#name, 
-#mail {
+#name, #mail, #msg {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 20px;
