@@ -371,7 +371,7 @@ h2 {
   /* display: flex;
   justify-content: flex-start;
   align-items: center; */
-  background: #6070FF;
+  background: #6070ff;
   border-radius: 100px 1px 1px 1px;
 
   /* header-background-image */
@@ -392,7 +392,9 @@ h2 {
   margin: 1px 24px;
 }
 
-#name, #mail, #msg {
+#name,
+#mail,
+#msg {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 20px;
@@ -403,17 +405,16 @@ h2 {
 }
 
 textarea {
-resize: vertical;
-font-family: 'Poppins', sans-serif;
-min-height: 170px;
-text-indent: 15px;
-padding-top: 15px;
+  resize: vertical;
+  font-family: 'Poppins', sans-serif;
+  min-height: 170px;
+  text-indent: 15px;
+  padding-top: 15px;
 }
 
 input {
   text-indent: 15px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .form-button {
