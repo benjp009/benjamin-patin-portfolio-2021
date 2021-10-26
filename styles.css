@@ -378,4 +378,24 @@ h2 {
 .contact-me-title {
   padding-top: 80px;
   color: white;
+  text-align: center;
+}
+
+.contact-me-p {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 1px 24px;
+}
+
+#name, 
+#mail {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
 }
