@@ -361,3 +361,16 @@ h2 {
   flex-grow: 0;
   margin: 12px 1px;
 }
+
+.contact-me {
+  /* Neutrals/N0 */
+  background: #6070FF;
+  border-radius: 100px 1px 1px 1px;
+
+  /* header-background-image */
+  background-image: url('ressources/contact form shapes-mobile.png');
+}
+
+.contact-me-title {
+  color: inherit;
+}
