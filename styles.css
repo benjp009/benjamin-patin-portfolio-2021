@@ -81,7 +81,6 @@ body {
   font-size: 46px;
   font-style: normal;
   font-weight: 800;
-  /* line-height: 60px; */
   letter-spacing: 0.4px;
 }
 
@@ -90,7 +89,6 @@ body {
   font-size: 28px;
   font-style: normal;
   font-weight: 800;
-  /* line-height: 40px; */
   letter-spacing: 0.5px;
   text-align: inherit;
 }
@@ -100,7 +98,6 @@ body {
   font-style: normal;
   font-weight: 400;
   margin-top: -20px;
-
   text-align: left;
   flex: none;
 }
@@ -381,7 +378,6 @@ input {
     max-width: 100%;
   }
   .header {
-    /* padding-top: 100px; */
     background-image: url('ressources/header-bg.png');
     background-size: 100%;
     background-position: center;
@@ -449,7 +445,6 @@ input {
     grid-row-start: 1;
     grid-row-end: 5;
     margin-bottom: 1px;
-
   }
 
   .client-info {
@@ -460,7 +455,6 @@ input {
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: start;
-
   }
 
   .project-info {
@@ -477,7 +471,6 @@ input {
     grid-row-start: 4;
     grid-row-end: 4;
     align-self: start;
-
   }
 
   .button {
@@ -494,7 +487,6 @@ input {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px repeat(6, 60px);
     column-gap: 30px;
-
   }
 
   .about-me-h2 {
