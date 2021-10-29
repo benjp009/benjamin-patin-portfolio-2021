@@ -516,6 +516,23 @@ body {
   margin-right: 24px;
 }
 
+@media only screen and (min-width: 600px) {
+
+    .contact-me {
+    background-image: url('ressources/contact-form-background.png');
+    background-size: 1397px 721px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .contact-me-p {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+  }
+
+}
+
 /* GENERAL RULES */
 ul {
   list-style-type: none;
