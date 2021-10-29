@@ -377,6 +377,7 @@ input {
   body {
     max-width: 100%;
   }
+
   .header {
     background-image: url('ressources/header-bg.png');
     background-size: 100%;
@@ -449,7 +450,6 @@ input {
 
   .client-info {
     margin-top: 1px;
-    align-self: stretch;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -495,7 +495,7 @@ input {
     grid-row-start: 1;
     grid-row-end: 1;
     align-self: end;
-}
+  }
 
   .about-me-p {
     grid-column-start: 1;
@@ -561,6 +561,7 @@ input {
     grid-column-start: 2;
     grid-column-end: 2;
   }
+  
   #d3 {
     grid-column-start: 3;
     grid-column-end: 3;
