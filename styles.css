@@ -13,6 +13,17 @@ body {
   background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 600px) {
+  .header {
+    margin-top: 100px;
+    background-image: url('ressources/header-bg.png');
+    background-size: 1397px 721px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 871px;
+  }
+}
+
 .topnav {
   margin-top: 24px;
   width: 100%;
@@ -25,21 +36,52 @@ body {
     [five] 35px [end];
 }
 
+@media only screen and (min-width: 600px) {
+  .topnav {
+    display: inline-grid;
+    grid-template-columns:
+      [first] 155px
+      [line2] 200px
+      [line3] auto
+      [line4] 500px
+      [five] 155px [end]
+  }
+}
+
 .topnav #myLinks {
   display: none;
 }
 
+@media only screen and (min-width: 600px) {
+  .topnav #myLinks {
+    grid-column: 4;
+    justify-self: end;
+    display: flex;
+  }
+}
+
 .topnav a {
-  font-family: Poppins, sans-serif;
   color: #6070ff;
   text-decoration: none;
   font-size: 17px;
+}
+
+@media only screen and (min-width: 600px) {
+  .topnav a {
+    margin-right: 32px;
+  }
 }
 
 .topnav a.icon {
   grid-column-start: 4;
   grid-column-end: 4;
   color: #6070ff;
+}
+
+@media only screen and (min-width: 600px) {
+  .topnav a.icon {
+    display: none;
+  }
 }
 
 .topnav a:hover {
@@ -78,6 +120,14 @@ body {
   letter-spacing: 0.4px;
   text-align: left;
   padding: 114px 24px 114px 24px;
+}
+
+@media only screen and (min-width: 600px) {
+  .headline {
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 200px;
+  }
 }
 
 .headline-text1 {
@@ -144,16 +194,44 @@ body {
 .grid-item-1, .grid-item-2 {
   background: white;
   margin: 44px 24px 44px 24px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 16px;
   border: 1px solid #DFE1E6;
   box-sizing: border-box;
   border-radius: 16px;
 }
 
+@media only screen and (min-width: 600px) {
+  .grid-item-1 {
+    margin-left: 142px;
+    margin-right: 142px;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    column-gap: 20px;
+  }
+
+  .grid-item-2 {
+    margin-left: 142px;
+    margin-right: 142px;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    column-gap: 20px;
+
+  }
+}
+
 .work-section-image {
   margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+  .work-section-image {
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
 }
 
 .client-info {
@@ -238,6 +316,46 @@ body {
   background: #2230d2;
 }
 
+@media only screen and (min-width: 600px) {
+
+  .client-info {
+  }
+  .grid-item h2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .client-info {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .project-info {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .language-used {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .button {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+}
+
 /* ABOUT MYSELF SECTION */
 
 .about-me {
@@ -305,6 +423,56 @@ body {
   grid-row-end: 1;
 }
 
+@media only screen and (min-width: 600px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 142px 40% 60%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-gap: 20px;
+  }
+
+  .about-me-h2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .about-me-p {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .social {
+    margin-top: 12px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  #button {
+    margin-top: 12px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .self-category {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .knowledges {
+    display: flex;
+  }
+}
+
 /* CONTACT ME  */
 .contact-me-white {
   background: white;
@@ -330,7 +498,6 @@ body {
   font-size: 20px;
   margin: 1px 24px;
 }
-
 
 #name,
 #mail,
