@@ -7,6 +7,7 @@
   background: #f7f7f9;
 }
 
+/* Header CSS  */
 .header {
   /* Neutrals/N0 */
   background: #fff;
@@ -14,6 +15,7 @@
 
   /* header-background-image */
   background-image: url('ressources/header-shapes mobile.png');
+<<<<<<< Updated upstream
 }
 
 .topnav {
@@ -37,10 +39,34 @@
   display: flex;
   align-items: center;
   text-align: center;
+=======
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+@media (min-width: 600px) {
+  .header {
+    background-image: url('ressources/header-bg.png');
+    }
+  }
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .topnav {
+
+  }
+}
+>>>>>>> Stashed changes
 
   /* Primary/B400 */
   color: #6070ff;
 
+<<<<<<< Updated upstream
   /* Inside Auto Layout */
   flex: none;
   order: 0;
@@ -49,19 +75,38 @@
 
 .navmenu {
   align-content: center;
+=======
+@media (min-width: 600px) {
+  .topnav #myLinks {
+    display: flex;
+  }
+
+  .topnav a.icon {
+    display: none;
+  }
+>>>>>>> Stashed changes
 }
 
-/* Style navigation menu links */
 .topnav a {
   font-family: Poppins, sans-serif;
   color: #6070ff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
+<<<<<<< Updated upstream
 /* Style the hamburger menu */
+=======
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+>>>>>>> Stashed changes
 .topnav a.icon {
   color: #6070ff;
   content: inherit;
@@ -71,20 +116,13 @@
   align-self: center;
 }
 
-/* Add the background color on mouse-over */
 .topnav a:hover {
   color: #36b37e;
 }
 
-/* Style the active link (or home/logo) */
 .active {
   background-color: #04aa6d;
   color: white;
-}
-
-/* Headline CSS */
-.background-image {
-  display: flex;
 }
 
 .headline {
@@ -95,6 +133,19 @@
   padding: 114px 24px 114px 24px;
 }
 
+<<<<<<< Updated upstream
+=======
+@media (min-width: 600px) {
+  .headline {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: 20%;
+  }
+}
+
+>>>>>>> Stashed changes
 .headline-text1 {
   color: #172b4d;
   font-size: 46px;
@@ -136,13 +187,11 @@
   text-align: left;
 }
 
-/* Wrap list in a FLexbox */
 .icon-list {
   display: flex;
   flex-direction: row;
 }
 
-/* Style all font awesome icons */
 .fa {
   color: #172b4d;
   font-size: 18px;
@@ -151,11 +200,11 @@
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   color: #36b37e;
 }
 
+<<<<<<< Updated upstream
 .grid-container {
   padding-top: 50px;
   display: grid;
@@ -169,16 +218,42 @@
   justify-content: flex-start;
   margin: 50px 30px 50px 30px;
   padding-left: 10px;
+=======
+/* Experience Section */
+.grid-item, .grid-item-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 44px 16px 44px 16px;
+>>>>>>> Stashed changes
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+<<<<<<< Updated upstream
 }
 
 .work-section-image {
   margin: 10px 10px 10px 1px;
 }
 
+=======
+  width: 100% - margin;
+}
+
+.work-image {
+  margin: 10px 10px 10px 10px;
+}
+
+.work-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5px;
+
+}
+
+>>>>>>> Stashed changes
 .client-info {
   display: flex;
   justify-content: flex-start;
@@ -291,13 +366,6 @@
   line-height: 24px;
   text-align: left;
 }
-
-/* .self-category {
-  padding-top: 40px;
-  height: 248px;
-  width: 327px;
-  top: 72px;
-} */
 
 .knowledges {
   display: block;
