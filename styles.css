@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 /* HEADER */
@@ -15,7 +15,7 @@ body {
 
 @media only screen and (min-width: 600px) {
   .header {
-    margin-top: 100px;
+    /* padding-top: 100px; */
     background-image: url('ressources/header-bg.png');
     background-size: 1397px 721px;
     background-position: center;
@@ -44,7 +44,7 @@ body {
       [line2] 200px
       [line3] auto
       [line4] 500px
-      [five] 155px [end]
+      [five] 155px [end];
   }
 }
 
@@ -95,18 +95,15 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-}
-
-.navmenu {
-  align-content: center;
-}
-
-.logo {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+}
+
+.navmenu {
+  align-content: center;
 }
 
 .active {
@@ -191,12 +188,13 @@ body {
 }
 
 /* EXPERIENCE SECTION  */
-.grid-item-1, .grid-item-2 {
+.grid-item-1,
+.grid-item-2 {
   background: white;
   margin: 44px 24px 44px 24px;
   display: grid;
   padding: 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -216,7 +214,6 @@ body {
     grid-template-columns: 50% 30% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     column-gap: 20px;
-
   }
 }
 
@@ -253,11 +250,12 @@ body {
   margin-right: 12px;
 }
 
-.project-style, .project-year {
+.project-style,
+.project-year {
   margin-right: 12px;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .project-info {
@@ -317,9 +315,6 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-
-  .client-info {
-  }
   .grid-item h2 {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -517,27 +512,25 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-
-    .contact-me {
+  .contact-me {
     background-image: url('ressources/contact-form-background.png');
     background-size: 1397px 721px;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
   .contact-me-p {
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 20px;
   }
-
 }
 
 /* GENERAL RULES */
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 1;
+  margin: 1;
 }
 
 h2 {
@@ -545,7 +538,7 @@ h2 {
   font-weight: bolder;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 textarea {
