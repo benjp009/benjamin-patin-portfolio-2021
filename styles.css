@@ -95,9 +95,6 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
   line-height: 20px;
   color: #6070ff;
 }
@@ -517,7 +514,7 @@ body {
     background-size: 1397px 721px;
     background-position: center;
     background-repeat: no-repeat;
-}
+  }
 
   .contact-me-p {
     margin-left: 400px;
@@ -529,12 +526,12 @@ body {
 /* GENERAL RULES */
 ul {
   list-style-type: none;
-  padding: 1;
-  margin: 1;
+  padding: 1px;
+  margin: 1px;
 }
 
 h2 {
-  margin: 0px;
+  margin: 1px;
   font-weight: bolder;
   font-size: 32px;
   line-height: 44px;
