@@ -138,8 +138,7 @@ body {
   background: white;
   margin: 44px 24px 44px 24px;
   display: grid;
-  grid-template-columns: 1;
-  /* grid-template-row: 60% 40%; */
+  grid-template-columns: 1fr;
   padding: 16px;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -149,7 +148,6 @@ body {
 .work-section-image {
   margin-bottom: 12px;
   max-width: 100%;
-  /* position: absolute; */
   grid-row: 1;
 }
 
@@ -453,8 +451,7 @@ input {
     grid-row-end: 5;
     margin-bottom: 1px;
     max-width: 100%;
-    max-height: 260px;;
-
+    max-height: 260px;
   }
 
   .client-info {
