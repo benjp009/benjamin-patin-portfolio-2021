@@ -58,6 +58,11 @@ body {
   color: #6070ff;
 }
 
+.logo:hover {
+  transform: rotate(-360deg);
+  transition-duration: 5s;
+}
+
 .navmenu {
   align-content: center;
 }
@@ -149,6 +154,10 @@ body {
   margin-bottom: 12px;
   max-width: 100%;
   grid-row: 1;
+}
+
+.work-section-image:hover {
+  transform: scale(1.02);
 }
 
 .client-info {
@@ -344,6 +353,13 @@ body {
   width: 325px;
   height: 48px;
   border: 1px solid #cfd8dc;
+}
+
+
+#name:hover,
+#mail:hover,
+#msg:hover {
+  transform: translate(5px);
 }
 
 .form-button {
