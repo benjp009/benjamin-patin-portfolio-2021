@@ -81,7 +81,7 @@ body {
 
 .headline-text1 {
   margin-top: -46px;
-  margin-bottom: -46px;
+  margin-bottom: 8px;
   color: #172b4d;
   font-size: 46px;
   font-style: normal;
@@ -366,6 +366,11 @@ body {
   margin-right: 24px;
 }
 
+.form:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
 /* GENERAL RULES */
 ul {
   list-style-type: none;
@@ -373,7 +378,7 @@ ul {
   margin: 1px;
 }
 
-h2 {
+h4 {
   margin: 1px;
   font-weight: bolder;
   font-size: 32px;
@@ -442,7 +447,7 @@ input {
     column-gap: 5%;
   }
 
-  .grid-item-1 h2 {
+  .grid-item-1 h4 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
