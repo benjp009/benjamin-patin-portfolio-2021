@@ -366,11 +366,6 @@ body {
   margin-right: 24px;
 }
 
-.form:required {
-  border-color: #800000;
-  border-width: 3px;
-}
-
 /* GENERAL RULES */
 ul {
   list-style-type: none;
