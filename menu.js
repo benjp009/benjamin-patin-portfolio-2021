@@ -1,4 +1,5 @@
-function clickFunction('') {
+// eslint-disable-next-line no-unused-vars
+function clickFunction() {
   const div = document.getElementById('myLinks');
   if (div.style.display === 'block') {
     div.style.display = 'none';
