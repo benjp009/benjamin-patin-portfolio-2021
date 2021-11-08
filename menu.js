@@ -1,6 +1,4 @@
-// a fonction that on click display the menu
-
-function clickFunction() {
+function clickFunction {
   const div = document.getElementById('myLinks');
   if (div.style.display === 'block') {
     div.style.display = 'none';
