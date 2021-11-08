@@ -76,6 +76,24 @@ body {
   height: 100%;
   background-color: #6070FF;
   color: white;
+  padding: 106px 28px;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 32px;
+  display: flex;
+}
+
+.nav-menu i {
+  width: 100%;
+}
+#close-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+  font-size: 12px;
+  color: white;
 }
 
 .active {
