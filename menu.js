@@ -1,10 +1,10 @@
 // a fonction that on click display the menu
 
 function clickFunction() {
-  let x = document.getElementById('myLinks');
-  if (x.style.display === 'block') {
-    x.style.display = 'none';
+  let div = document.getElementById('myLinks');
+  if (div.style.display === 'block') {
+    div.style.display = 'none';
   } else {
-    x.style.display = 'block';
+    div.style.display = 'block';
   }
 }
