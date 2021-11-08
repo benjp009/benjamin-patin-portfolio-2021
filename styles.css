@@ -6,6 +6,10 @@ body {
   background: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
 .header {
   background: white;
