@@ -1,4 +1,4 @@
-function clickFunction('onClick') {
+function clickFunction('') {
   const div = document.getElementById('myLinks');
   if (div.style.display === 'block') {
     div.style.display = 'none';
