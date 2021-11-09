@@ -21,14 +21,16 @@ html {
 
 .topnav {
   margin-top: 24px;
-  width: 100%;
+  width: 400px;
+  max-width: 100%;
   display: inline-grid;
   grid-template-columns:
-    [first] 35px
-    [line2] 100px
-    [line3] auto
-    [line4] 50px
-    [five] 35px [end];
+    [first] 5%
+    [line2] 50%
+    [line3] 20%
+    [line4] 20%
+    [five] 5%[end];
+    place-self: center stretch;
 }
 
 .topnav #myLinks {
@@ -45,9 +47,10 @@ html {
   grid-column-start: 4;
   grid-column-end: 4;
   color: #6060ff;
+  place-self: center;
 }
 
-.nav-menu a {
+.nav-menu-mobile a {
   color: white;
   font-size: 32px;
   display: flex;
@@ -73,23 +76,26 @@ html {
   transition-duration: 5s;
 }
 
-.nav-menu.active {
+.nav-menu-mobile.active {
   background-color: #6070ff;
   color: white;
 }
 
-.nav-menu {
+.nav-menu-mobile {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  max-width: 100%;
+  height: 1000px;
+  max-height: 100%;
   background-color: #6070ff;
   color: white;
   padding: 106px 28px;
+  margin-top: -106px;
 }
 
-.nav-menu i {
+.nav-menu-mobile i {
   width: 100%;
 }
 
@@ -97,6 +103,7 @@ html {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 32px;
+  margin-right: 80px;
   font-size: 12px;
   color: white;
 }
@@ -487,6 +494,7 @@ input {
   .nav-menu {
     display: flex;
     flex-direction: row;
+    background-color: none;
   }
 
   .headline {
