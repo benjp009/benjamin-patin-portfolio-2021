@@ -6,6 +6,10 @@ body {
   background: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
 .header {
   background: white;
@@ -17,14 +21,16 @@ body {
 
 .topnav {
   margin-top: 24px;
-  width: 100%;
+  width: 400px;
+  max-width: 100%;
   display: inline-grid;
   grid-template-columns:
-    [first] 35px
-    [line2] 100px
-    [line3] auto
-    [line4] 50px
-    [five] 35px [end];
+    [first] 5%
+    [line2] 50%
+    [line3] 20%
+    [line4] 20%
+    [five] 5% [end];
+  place-self: center stretch;
 }
 
 .topnav #myLinks {
@@ -41,6 +47,13 @@ body {
   grid-column-start: 4;
   grid-column-end: 4;
   color: #6060ff;
+  place-self: center;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 32px;
+  display: flex;
 }
 
 .topnav a:hover {
@@ -63,8 +76,37 @@ body {
   transition-duration: 5s;
 }
 
-.navmenu {
-  align-content: center;
+.nav-menu.active {
+  background-color: #6070ff;
+  color: white;
+}
+
+.nav-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #6070ff;
+  opacity: 90%;
+  color: white;
+  line-height: 44px;
+  padding: 106px 28px 400px 28px;
+  margin-top: -106px;
+}
+
+.nav-menu i {
+  width: 100%;
+}
+
+#close-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+  margin-right: 80px;
+  font-size: 12px;
+  color: white;
 }
 
 .active {
@@ -427,27 +469,39 @@ input {
   }
 
   .topnav {
+    width: 2000px;
+    max-width: 100%;
     display: inline-grid;
     grid-template-columns:
-      [first] 155px
-      [line2] 200px
-      [line3] auto
-      [line4] 500px
-      [five] 155px [end];
+      [first] 5%
+      [line2] 20%
+      [line3] 20%
+      [line4] 50%
+      [five] 5% [end];
+    margin-right: 80px;
   }
 
   .topnav #myLinks {
-    grid-column: 4;
-    justify-self: end;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    justify-self: center;
     display: flex;
   }
 
   .topnav a {
     margin-right: 32px;
+    color: #344563;
   }
 
   .topnav a.icon {
     display: none;
+  }
+
+  .nav-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: none;
   }
 
   .headline {
