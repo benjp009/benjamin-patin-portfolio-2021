@@ -707,7 +707,7 @@ input {
 .popup-image {
   object-fit: contain;
   padding: 20px;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .popup-footer {
@@ -724,11 +724,11 @@ input {
 }
 
 .popup-button:hover i {
-    color: white;
+  color: white;
 }
 
 .popup-button:active i {
-    color: white;
+  color: white;
 }
 
 .overlay {
@@ -737,5 +737,5 @@ input {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
