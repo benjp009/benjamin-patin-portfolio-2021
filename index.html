@@ -3,8 +3,6 @@
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-    <script src="menu.js"></script>
-
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){window.dataLayer.push(arguments);}
@@ -21,6 +19,7 @@
     <title>Benjamin Patin's Developer Portfolio for Microverse course</title>
   </head>
   <body>
+
   <!-- Header Section  -->
     <section class="header">
       <!--- Top navigation Bar --->
@@ -62,9 +61,9 @@
 
 <!-- Experiences Section  -->
     <section class="experience" id="portfolio">
-      <section class="grid-item-1">
+      <section class="grid-item-1" id="grid">
           <img class="work-section-image" src="ressources/Work-1.png" alt="Picture reprenting the first work done by Benjamin">
-          <h4>Tonic</h4>
+          <h4 id="popup-title">Tonic</h4>
           <ul class="client-info">
             <li class="client-name">CANOPY</li>
             <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
@@ -78,11 +77,11 @@
             <li><div class="tags">css</div></li>
             <li><div class="tags">javaScript</div></li>
           </ul>
-        <button type="button" class="button">See Project!</button>
+        <button type="button" class="button see-project-button"  id="btn">See Project!</button>
       </section>
-      <section class="grid-item-2">
+      <section class="grid-item-2" id="grid">
           <img class="work-section-image" src="ressources/Work-2.png" alt="Picture reprenting the second work done by Benjamin">
-          <h4>Multi-Post Stories</h4>
+          <h4 id="popup-title">Multi-Post Stories</h4>
           <ul class="client-info">
               <li class="client-name">CANOPY</li>
               <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
@@ -97,10 +96,12 @@
             <li><div class="tags">javaScript</div></li>
           </ul>
         <button type="button" class="button" id="grid2">See Project!</button>
+
+
       </section>
-      <section class="grid-item-1">
+      <section class="grid-item-1" id="grid">
           <img class="work-section-image" src="ressources/Work-3.png" alt="Picture reprenting the third work done by Benjamin">
-          <h4>Tonic</h4>
+          <h4 id="popup-title">Tonic</h4>
           <ul class="client-info">
             <li class="client-name" id="info-client">CANOPY</li>
             <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
@@ -116,9 +117,9 @@
           </ul>
         <button type="button" class="button">See Project!</button>
       </section>
-      <section class="grid-item-2">
+      <section class="grid-item-2" id="grid">
           <img class="work-section-image" src="ressources/Work-4.png" alt="Picture reprenting the fourth work done by Benjamin">
-          <h4>Multi-Post Stories</h4>
+          <h4 id="popup-title">Multi-Post Stories</h4>
           <ul class="client-info">
             <li class="client-name" id="info-client">CANOPY</li>
             <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
@@ -202,6 +203,68 @@
         </form>
       </div>
     </section>
+
+    <!-- Popup Modal -->
+    <!-- <div class="popup-window" id="popup">
+      <section class="popup">
+        <div class="popup-header">
+          <h2 class="popup-project-title" id="popup-project-title"></h2>
+          <span class="close">&times;</span>
+        </div>
+        <div class="popup-project-info" id="popup-project-info"></div>
+        <div id="popup-project-image-holder">
+          <img
+            src="#"
+            alt="Tonic project screenshot"
+            class="popup-project-image"
+            id="popup-project-image"
+          />
+        </div>
+        <div class="popup-project-details">
+          <div class="column-left">
+            <p
+              class="popup-project-description"
+              id="popup-project-description"
+            ></p>
+          </div>
+          <div class="column-right">
+            <div class="popup-project-stack" id="popup-project-stack"></div>
+            <div class="popup-project-buttons">
+              <button type="button" class="button popup-button">See Project!<i class="fa fa-external-link" aria-hidden="true"></i></button>
+              <button type="button" class="button popup-button">See Project!<i class="fa fa-github" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div> -->
+
+    <section class="popup-window" id="popup">
+      <div class="popup" id="grid">
+        <div class="popup-header">
+          <h4 id="popup-title">Tonic</h4>
+          <span class="close">&times;</span>
+        </div>
+        <ul class="client-info">
+          <li class="client-name">CANOPY</li>
+          <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
+          <li class="project-style">Back End Dev</li>
+          <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
+          <li class="project-year">2015</li>
+        </ul>
+        <img class="popup-image" src="ressources/Work-1.png" alt="Picture reprenting the first work done by Benjamin">
+        <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="language-used">
+          <li><div class="tags">html</div></li>
+          <li><div class="tags">css</div></li>
+          <li><div class="tags">javaScript</div></li>
+        </ul>
+        <div class="popup-footer">
+          <button type="button" class="button popup-button">See Live!<i class="fa fa-external-link" aria-hidden="true"></i></button>
+          <button type="button" class="button popup-button">See Source!<i class="fa fa-github" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+    <script src="menu.js"></script>
   </body>
   <footer>
   </footer>
