@@ -19,7 +19,6 @@
     <title>Benjamin Patin's Developer Portfolio for Microverse course</title>
   </head>
   <body>
-
   <!-- Header Section  -->
     <section class="header">
       <!--- Top navigation Bar --->
@@ -62,78 +61,20 @@
 <!-- Experiences Section  -->
     <section class="experience" id="portfolio">
       <section class="grid-item-1" id="grid">
-          <img class="work-section-image" src="ressources/Work-1.png" alt="Picture reprenting the first work done by Benjamin">
-          <h4 id="popup-title">portfolio.</h4>
+          <img id="popup-image" class="work-section-image">
+          <h4 id="popup-title"></h4>
           <ul class="client-info">
-            <li class="client-name">CANOPY</li>
+            <li class="client-name" id="client-name"></li>
             <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-style">Back End Dev</li>
+            <li class="project-style" id="project-style"></li>
             <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-year">2015</li>
+            <li class="project-year" id="project-year"></li>
           </ul>
-          <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="project-info" id="projectInfoShort"></p>
           <ul class="language-used">
-            <li><div class="tags">html</div></li>
-            <li><div class="tags">css</div></li>
-            <li><div class="tags">javaScript</div></li>
+            <li><div class="tags" id="tags"></div></li>
           </ul>
         <button type="button" class="button see-project-button"  id="btn">See Project!</button>
-      </section>
-
-      <section class="grid-item-2" id="grid">
-          <img class="work-section-image" src="ressources/Work-2.png" alt="Picture reprenting the second work done by Benjamin">
-          <h4 id="popup-title">Multi-Post Stories</h4>
-          <ul class="client-info">
-              <li class="client-name">CANOPY</li>
-              <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-              <li class="project-style">Back End Dev</li>
-              <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-              <li class="project-year">2015</li>
-            </ul>
-          <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul class="language-used">
-            <li><div class="tags">html</div></li>
-            <li><div class="tags">css</div></li>
-            <li><div class="tags">javaScript</div></li>
-          </ul>
-        <button type="button" class="button" id="grid2">See Project!</button>
-      </section>
-
-      <section class="grid-item-1" id="grid">
-          <img class="work-section-image" src="ressources/Work-3.png" alt="Picture reprenting the third work done by Benjamin">
-          <h4 id="popup-title">Tonic</h4>
-          <ul class="client-info">
-            <li class="client-name" id="info-client">CANOPY</li>
-            <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-style"id="info-client">Back End Dev</li>
-            <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-year"id="info-client">2015</li>
-          </ul>
-          <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul class="language-used">
-            <li><div class="tags">html</div></li>
-            <li><div class="tags">css</div></li>
-            <li><div class="tags">javaScript</div></li>
-          </ul>
-        <button type="button" class="button">See Project!</button>
-      </section>
-      <section class="grid-item-2" id="grid">
-          <img class="work-section-image" src="ressources/Work-4.png" alt="Picture reprenting the fourth work done by Benjamin">
-          <h4 id="popup-title">Multi-Post Stories</h4>
-          <ul class="client-info">
-            <li class="client-name" id="info-client">CANOPY</li>
-            <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-style" id="info-client">Back End Dev</li>
-            <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-            <li class="project-year"id="info-client">2015</li>
-          </ul>
-          <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul class="language-used">
-            <li><div class="tags">html</div></li>
-            <li><div class="tags">css</div></li>
-            <li><div class="tags">javaScript</div></li>
-          </ul>
-        <button type="button" class="button">See Project!</button>
       </section>
     </section>
 
@@ -207,22 +148,20 @@
     <section class="popup-window" id="popup">
       <div class="popup" id="grid">
         <div class="popup-header">
-          <h4 id="popup-title">Tonic</h4>
+          <h4 id="popup-title"></h4>
           <span class="close">&times;</span>
         </div>
         <ul class="client-info">
-          <li class="client-name">CANOPY</li>
+          <li class="client-name" id="client-name"></li>
           <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-          <li class="project-style">Back End Dev</li>
+          <li class="project-style" id="project-style"></li>
           <img class="client-section-counter" src="ressources/Counter.png" alt="Counter">
-          <li class="project-year">2015</li>
+          <li class="project-year" id="project-year"></li>
         </ul>
-        <img class="popup-image" src="ressources/Work-1.png" alt="Picture reprenting the first work done by Benjamin">
-        <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <img class="popup-image" id="popup-image">
+        <p class="project-info" id="project-info"></p>
         <ul class="language-used">
-          <li><div class="tags">html</div></li>
-          <li><div class="tags">css</div></li>
-          <li><div class="tags">javaScript</div></li>
+          <li><div class="tags" id="tags"></div></li>
         </ul>
         <div class="popup-footer">
           <button type="button" class="button popup-button">See Live!<i class="fa fa-external-link" aria-hidden="true"></i></button>
