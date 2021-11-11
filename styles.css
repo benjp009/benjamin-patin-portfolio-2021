@@ -1,8 +1,8 @@
 /* BODY  */
 :root {
-    --error-color: #dc3545;
-    --success-color: #28a745;
-    --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
 }
 
 body {
