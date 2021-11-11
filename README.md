@@ -4,8 +4,9 @@ That repository is to display my portfolio as a new developer
 
 ## Built With
 
-- html
-- css
+- HTML
+- CSS
+- JavaScript
 
 ## Live Demo
 
