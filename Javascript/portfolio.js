@@ -59,13 +59,14 @@ const portfolio = [{
   projectInfoLong: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   languageUsed: ['html', 'css', 'JavaScript'],
 },
-]
+];
 
 let projectDetails = '';
-for ( let index in portfolio) {
+
+Object.keys(portfolio).forEach((index) => {
   // let projectName = arr[index];
-projectDetails +=
-  `<section class='grid-item-1' id='grid'>
+  projectDetails
+  += `<section class='grid-item-1' id='grid'>
       <img class='work-section-image' src='${portfolio[index].workSectionImage.src}' alt='Picture reprenting the first work done by Benjamin'>
       <h4 id='popup-title'>${portfolio[index].title}</h4>
       <ul class='client-info'>
@@ -82,6 +83,6 @@ projectDetails +=
         <li><div class='tags'>${portfolio[index].languageUsed[2]}</div></li>
       </ul>
     <button type='button' class='button see-project-button'  id='btn'>See Project!</button>
-  </section>`
-}
+  </section>`;
+});
 document.getElementById('portfolio').innerHTML = projectDetails;
