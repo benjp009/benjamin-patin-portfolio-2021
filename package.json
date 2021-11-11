@@ -1,0 +1,19 @@
+{
+  "name": "benjamin-patin-portfolio-2021",
+  "version": "1.0.0",
+  "description": "That repository is to display my portfolio as a new developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjp009/benjamin-patin-portfolio-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjp009/benjamin-patin-portfolio-2021/issues"
+  },
+  "homepage": "https://github.com/benjp009/benjamin-patin-portfolio-2021#readme"
+}
