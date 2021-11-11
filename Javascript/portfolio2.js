@@ -4,5 +4,5 @@ const seeProjectButton = document.querySelectorAll (
 
 seeProjectButton.forEach((element) => {
   element.addEventListener('click', function(event) {
-  };),
+  },),
 });
