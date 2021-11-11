@@ -1,4 +1,10 @@
 /* BODY  */
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
 body {
   max-width: 100%;
   font-family: "Poppins", sans-serif;
