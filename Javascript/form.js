@@ -1,4 +1,3 @@
-
 const form = document.getElementById('contact-me-form');
 const email = document.getElementById('mail');
 const errorUpper = '&#9888; Your email is in uppercase. Please rewrite it in lowercase.';
