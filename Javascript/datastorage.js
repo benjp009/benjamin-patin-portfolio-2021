@@ -10,3 +10,16 @@ const store = () => {
   };
   localStorage.setItem('formInput', JSON.stringify(input));
 };
+
+name.addEventListener('change', () => {
+  console.log(name.value)
+  store();
+});
+
+mail.addEventListener('change', () => {
+  store();
+});
+
+msg.addEventListener('change', () => {
+  store();
+});
