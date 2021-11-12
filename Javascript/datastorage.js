@@ -12,7 +12,6 @@ const store = () => {
 };
 
 name.addEventListener('change', () => {
-  console.log(name.value)
   store();
 });
 
