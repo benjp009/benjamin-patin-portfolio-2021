@@ -113,20 +113,48 @@
       <div class="contact-me">
         <h2 class="contact-me-title">Contact Me</h2>
         <p class="contact-me-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form class="form" action="https://formspree.io/f/meqvwdoo"
+        <form
+          id="contact-me-form"
+          class="form"
+          action="https://formspree.io/f/meqvwdoo"
           method="POST">
-          <ul>
-            <li>
-              <input type="name" maxlength="30" id="name" name="user_name" placeholder="Full name" required>
-            </li>
-            <li>
-              <input type="email" id="mail" name="_replyto" placeholder="Email address" required>
-            </li>
-            <li>
-              <textarea type="text" id="msg" maxlength="500" name="user_message" placeholder="Write your message here" required></textarea>
-            </li>
-              <button class="button form-button" type="submit">Get in Touch</button>
-          </ul>
+            <div class="form-field">
+              <label for="Name"></label>
+              <input
+                type="name"
+                maxlength="30"
+                id="name"
+                name="user_name"
+                placeholder="Full name"
+                required>
+              <small></small>
+            </div>
+            <div class="form-field">
+              <label for="email"></label>
+                <input
+                  type="email"
+                  id="mail"
+                  name="_replyto"
+                  placeholder="Email address"
+                  required
+                  autocomplete="off">
+                <small></small>
+            </div>
+            <div class="">
+              <label for="message"></label>
+              <textarea
+                type="text"
+                id="msg"
+                maxlength="500"
+                name="user_message"
+                placeholder="Write your message here"
+                required>
+              </textarea>
+              <small></small>
+            </div>
+            <div class="form-field">
+              <button class="button form-button" type="submit" value="Sign Up">Get in Touch</button>
+            </div>
         </form>
       </div>
     </section>
@@ -160,6 +188,8 @@
     <script src="Javascript/menu.js"></script>
     <script src="Javascript/portfolio.js"></script>
     <script src="Javascript/popup.js"></script>
+    <script src="JavaScript/form.js"></script>
+    <script src="JavaScript/datastorage.js"></script>
   </body>
   <footer>
   </footer>
