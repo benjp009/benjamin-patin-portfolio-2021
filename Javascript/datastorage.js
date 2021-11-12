@@ -23,3 +23,11 @@ mail.addEventListener('change', () => {
 msg.addEventListener('change', () => {
   store();
 });
+
+const populateForm = () => {
+  const storage = localStorage.getItem('formInput');
+  name.value = JSON.parse(storage).name;
+  mail.value = JSON.parse(storage).mail;
+  msg.value = JSON.parse(storage).msg;
+};
+populateForm();
