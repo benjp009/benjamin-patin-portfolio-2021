@@ -1,4 +1,3 @@
-onkeyup = 'this.value = this.value.toLowerCase();';
 
 const form = document.getElementById('contact-me-form');
 const email = document.getElementById('mail');
